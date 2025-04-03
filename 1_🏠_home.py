@@ -14,7 +14,10 @@ st.markdown("# FIFA23 OFFICIAL DATASET! ⚽️")
 st.sidebar.markdown("Desenvolvido por [Asimov Academy](https://asimov.academy)")
 
 
-st.link_button("Acesse os dados no Kaggle","https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+#st.link_button("Acesse os dados no Kaggle"
+ # ,"https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+st.link_button("Acesse os dados MLSA",
+"http://mlibanio.realetech.net.br:5000/api/Especial?param=DataDe=2018-04-01;DataAte=2018-05-16;nperiodo=3;Prod=%20%201;sp_numero=301")
 #if btn:
 #    webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
 
